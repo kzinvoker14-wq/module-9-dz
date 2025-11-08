@@ -163,6 +163,6 @@ if __name__ == "__main__":
     root.add(docs)
     root.add(pics)
 
-    print("\n--- Содержимое файловой системы ---")
+    print("\n Содержимое файловой системы ")
     root.display()
     print(f"\nОбщий размер: {root.get_size()} КБ")
